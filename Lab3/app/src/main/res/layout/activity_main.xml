@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/label_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter integers between 0 - 255 in the text field below to generate color: "
+        android:textSize="50px"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/red"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Red"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:layout_marginTop="130dp"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/green"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Green"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:textSize="50px" />
+
+    <EditText
+        android:id="@+id/blue"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:hint="Blue"
+        android:inputType="numberSigned"
+        android:layout_gravity="center"
+        android:textSize="50px" />
+
+</LinearLayout>
